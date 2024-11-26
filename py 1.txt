@@ -1,0 +1,8 @@
+class Car:
+    def_init_(self,name,year):
+    self.name = name
+    self.__year = year
+    def get_year(self):
+        return self.__year
+        car1=Car("Tata",2020)
+        print(car1.name)
